@@ -65,6 +65,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6768
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+BOARD_KERNEL_CMDLINE += pm.sleep_mode=1
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                   # 2048      * 64   (none)
