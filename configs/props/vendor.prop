@@ -142,6 +142,9 @@ persist.sys.mmms.lowmem.wmark.boost.factor=3
 persist.sys.miui.adj_update_foreground_state.enable.delayMs=3000
 persist.sys.miui.camera.lmkd.level.update=2
 
+# LMK tuning
+ro.lmk.filecache_min_kb=153600
+
 # Media
 ro.vendor.mtk_config_max_dram_size=0x800000000
 ro.vendor.smvr.p2batch.vga=8
