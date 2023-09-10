@@ -400,12 +400,6 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/libwvhidl.so
 
-# Engineer Mode
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
-
 # Graphics
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
@@ -1024,10 +1018,8 @@ vendor/lib/libneuropilot_hal_utils.so
 vendor/lib64/libneuropilot_hal_utils.so
 
 # Misc
-vendor/etc/init/bootperf.rc
 vendor/etc/Conf_MultipleTest.ini
 vendor/etc/MNL_Config.xml
-vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 
 # TEE
