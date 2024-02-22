@@ -6,3 +6,9 @@ r_dir_file(hal_health_default, vendor_sysfs_bms_supply)
 r_dir_file(hal_health_default, vendor_sysfs_parallel_supply)
 r_dir_file(hal_health_default, vendor_sysfs_main_supply)
 r_dir_file(hal_health_default, sysfs_batteryinfo)
+
+# DRM / DRI GPU driver required
+allow hal_health_default gpu_device:dir search;
+
+# Add permission for DRM in animation
+allow hal_health_default dri_device:chr_file rw_file_perms;
