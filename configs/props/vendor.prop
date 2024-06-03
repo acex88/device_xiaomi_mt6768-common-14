@@ -113,6 +113,9 @@ ro.vendor.mtk_log_hide_gps=0
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
+# LMK
+ro.lmk.kill_heaviest_task=true
+
 # IMS
 ro.vendor.md_auto_setup_ims=1
 persist.vendor.ims_support=1
