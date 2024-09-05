@@ -124,6 +124,9 @@ persist.vendor.mtk.volte.enable=1
 persist.vendor.vilte_support=0
 persist.vendor.viwifi_support=0
 
+# LMK 
+ro.lmk.log_stats=false
+
 # MIUI
 sys.fp.miui.token=0
 persist.sys.mms.compact_enable=true
