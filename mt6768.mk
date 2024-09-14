@@ -197,6 +197,7 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhidlmemory.vendor \
     libhwbinder \
+    libutils.vendor \
     libhwbinder.vendor
 
 # IMS
