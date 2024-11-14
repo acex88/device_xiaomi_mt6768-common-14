@@ -1105,16 +1105,6 @@ service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
     class core
     oneshot
     
-service vendor.charger /system/bin/charger
-    class charger
-    user system
-    group system graphics wakelock input
-    capabilities SYS_BOOT
-    file /dev/kmsg w
-    file /sys/fs/pstore/console-ramoops-0 r
-    file /sys/fs/pstore/console-ramoops r
-    file /proc/last_kmsg r
-
 service screenmode0 /system/vendor/bin/factory_bin s 0
     class main
     user root
