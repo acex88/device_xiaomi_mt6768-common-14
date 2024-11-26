@@ -366,7 +366,7 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
-    fstab.mt6768_ramdisk \
+    fstab.mt6768.ramdisk \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6768.rc \
