@@ -25,4 +25,7 @@ Licensed SPDX-License-Identifier: Apache-2.0
     <string name="config_batteryCalculatedCapacity">/sys/devices/platform/battery/power_supply/bms/charge_full</string>
     <string name="config_batteryDesignCapacity">/sys/devices/platform/battery/power_supply/bms/charge_full_design</string>
     <string name="config_batteryChargeCycles">/sys/devices/platform/battery/power_supply/bms/cycle_count</string>
+
+    <!-- Set the automatic brightness mode off by default -->
+    <bool name="def_screen_brightness_automatic_mode">false</bool>
 </resources>
