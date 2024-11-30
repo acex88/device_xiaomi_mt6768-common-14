@@ -109,6 +109,8 @@ on charger
 
 on property:sys.boot_completed=1
     write /proc/pl_lk "0"
+    # Stop statsd
+    stop statsd
 
 on early-fs
     write /proc/bootprof "INIT:early-fs"
