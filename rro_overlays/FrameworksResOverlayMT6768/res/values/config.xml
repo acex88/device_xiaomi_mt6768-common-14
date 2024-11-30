@@ -500,7 +500,6 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
     </string-array>
    
-    <!-- Turbulence effect -->
-    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
-
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
 </resources>
