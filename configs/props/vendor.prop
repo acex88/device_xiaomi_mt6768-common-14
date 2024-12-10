@@ -172,7 +172,6 @@ persist.vendor.radio.fd.r8.counter=150
 persist.vendor.radio.fd.off.r8.counter=50
 ro.vendor.mtk_protocol1_rat_config=Lf/Lt/W/G
 ro.telephony.default_network=9,9,9,9
-ro.vendor.mtk_telephony_add_on_policy=0
 ro.vendor.mtk_md1_support=9
 ro.vendor.mtk_md3_support=0
 ro.vendor.mtk_c2k_lte_mode=0
