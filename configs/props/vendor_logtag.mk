@@ -7,6 +7,8 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.RILMUXD=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.AT=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.AAL=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.AALLightSensor=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RILC-MTK=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RILC=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RfxMainThread=$(VENDOR_LOG_LEVEL) \
@@ -243,6 +245,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.CarrierExpressServiceImpl=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.CarrierExpressServiceImplExt=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.PhoneConfigurationSettings=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.Light=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.libPowerHal=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.mtkpower@impl=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.mtkpower_client=$(VENDOR_LOG_LEVEL) \
@@ -280,6 +283,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.MAPI-CommandProcessor=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RpAudioControl=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.gralloc4=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.Vidhance=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.VidhanceCore=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.VidhanceContext=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.MDP=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.Profiler=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.GPUAUX=$(VENDOR_LOG_LEVEL)
 
