@@ -214,6 +214,21 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.mt6768 \
+    fstab.mt6768.ramdisk \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6768.rc \
+    init.mt6768.usb.rc \
+    init.sensor_1_0.rc \
+    init.target.rc \
+    ueventd.mtk.rc
+
+PRODUCT_PACKAGES += \
+    init.recovery.mt6768.rc
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
@@ -363,21 +378,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.radio-V1.4-java
-
-# Rootdir
-PRODUCT_PACKAGES += \
-    fstab.mt6768 \
-    fstab.mt6768.ramdisk \
-    init.connectivity.rc \
-    init.modem.rc \
-    init.mt6768.rc \
-    init.mt6768.usb.rc \
-    init.sensor_1_0.rc \
-    init.target.rc \
-    ueventd.mtk.rc
-
-PRODUCT_PACKAGES += \
-    init.recovery.mt6768.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
