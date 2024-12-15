@@ -83,7 +83,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libexpat.vendor \
-    libpng.vendor
+    libpng.vendor \
+    libgralloctypes.vendor
 
 PRODUCT_PACKAGES += \
     libdng_sdk.vendor
