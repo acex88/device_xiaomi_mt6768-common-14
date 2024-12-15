@@ -276,6 +276,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayMT6768 \
     FrameworksResOverlayMT6768 \
     SettingsOverlayMT6768 \
+    SystemUIOverlayMT6768 \
     TelephonyOverlayMT6768 \
     TetheringConfigOverlayMT6768 \
     WifiOverlayMT6768
