@@ -2,6 +2,9 @@
 # system.prop for mt6768
 #
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Audio
 ro.audio.silent=0
 audio_para_version=J15S-Audiopara-V20-20200527
