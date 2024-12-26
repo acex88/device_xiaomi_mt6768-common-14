@@ -459,12 +459,6 @@
       <item>0:2:15</item>
     </string-array>
 
-    <!-- These are system packages exempted from privacy indicator -->
-    <string-array name="config_locationExtraPackageNames" translatable="false">
-        <!-- ImsService -->
-        <item>com.mediatek.ims</item>
-    </string-array>
-
      <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
          try to start this dream if possible.  The dream should typically call startDozing()
