@@ -492,4 +492,7 @@
          the blur effect where it isn't worth the performance hit.
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
+
+    <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
+    <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.7</item>
 </resources>
