@@ -68,6 +68,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_CMDLINE += pm.sleep_mode=1
 
 # Malloc
+MALLOC_SVELTE := true
 MALLOC_LOW_MEMORY := true
 
 # Partitions
