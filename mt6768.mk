@@ -242,6 +242,7 @@ PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
 
 # Reduce system server verbosity.
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
+PRODUCT_OTHER_JAVA_DEBUG_INFO := false
 
 # Keymaster
 PRODUCT_PACKAGES += \
